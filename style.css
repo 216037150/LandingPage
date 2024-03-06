@@ -1,0 +1,27 @@
+body{
+    background-color: yellow;
+    border-radius: 8px;
+}
+h1{
+    margin-left:70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.fas{
+    height: 900x;
+    width: 500px;
+    margin-left: 800px;
+    margin-top: 300px;
+    font-size: 8em;
+    border-radius: 8px;
+}
+.btn button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(195, 0, 255);
+    color: aliceblue;
+    border-radius: 6px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
