@@ -1,26 +1,24 @@
-body{
-    background-color: yellow;
-    border-radius: 8px;
-}
-h1{
-    margin-left:70px;
-    text-transform: uppercase;
-    text-align: center;
-}
-.fas{
-    width: 500px;
-    margin-left: 800px;
-    margin-top: 300px;
-    font-size: 8em;
-    border-radius: 8px;
-}
-.btn button{
-    height: 40px;
-    width: 200px;
-    background-color: rgb(195, 0, 255);
-    color: aliceblue;
-    border-radius: 6px;
-    margin-left: 45px;
-    cursor: pointer;
+cert {
+    display: flex; /* Set display to flex */
+    flex-direction: column; /* Display in columns */
+    align-items: center;
 }
 
+.cert{
+    background-color: #0A1C2B;
+    height: 50px;
+    display: flex; /* Set display to flex */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: 5px;
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(70, 203, 221);
+    width: 50%px;
+    margin-right: 70px;
+    margin-left:40px;
+
+}
+.content{
+    display: inline;
+}

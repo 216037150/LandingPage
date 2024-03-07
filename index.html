@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <!--   <link rel="stylesheet" href="style.css">
 -->
+<link rel="stylesheet" href="style.css">
 <script type="text/javascript" src="javaScript.js"></script>
 
 <style>
@@ -24,22 +25,21 @@ h1{
   shape-outside: border-radius(50%); 
 }
 .fas{
-  height:200px;
+  height:180px;
   width: 400px;
   margin-top: 50px;
   margin-left: 700px;
 }
 
 /* The h3 styling*/
-h3{
+.content h3{
   margin-left:40px;
   text-transform: uppercase;
   text-align: left;
-  margin-top:0px;
+  margin-top:50px;
   background-color: #0A1C2B;
-  margin-right: 70px;
   border-radius: 50px;
-  width: 50%;
+  width: 40%;
 }
 
 /* Styling button*/
@@ -57,29 +57,36 @@ h3{
   text-align: center;
 }
 
+.cloud-computing-icon i{
+      color: rgb(47, 204, 204);
+      font-size: 40px;
+    }
 </style>
 
 </head>
 <body>
-  <!---- This is an icon from Font Awesome -->
+  
   <h1>Get a Higher certificate in software Enginering</h1>
   <span style="color: aqua; align-items: center; margin-top: 200px; font-size: 150px;
   ">
   <i  class="fas fa-graduation-cap"></i></span>
-  <h3>World's #1 online bootcamp <br><br>
+
+  <div class="content">
+    <img src="traced-aws.PNG" alt="" style="margin-left: 55%;">
+      <span><h3>World's #1 online bootcamp <br><br>
     Get started with your immersive learning experience <br><br>
     2M careers advanced <br><br>
     1500 live classes every month <br><br>
-    90% reported promotion or a new job</h3>
-    <br><br><br>
-    <div class="wesite-image"></div>
-
+    90% reported promotion or a new job</h3>    
+  </span>
+  </div>
+  
     <button id="btn">Enter</button>
-
 <script>
     document.getElementById("btn").onclick = function() {
-        alert("Hi Five!");
+        alert("Button clicked!");
     };
 </script>
-  </body>
+
+</body>
 </html>
