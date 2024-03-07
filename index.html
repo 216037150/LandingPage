@@ -3,12 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Font Awesome Icon Example</title>
+  <title>Higher certificate</title>
   <!-- Include Font Awesome stylesheet, and css style -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <!--   <link rel="stylesheet" href="style.css">
 -->
-<style>body{
+<script type="text/javascript" src="javaScript.js"></script>
+
+<style>
+
+body{
   background-image: url(land1.jpg);
   border-radius: 8px;
   color: rgb(15, 213, 240);
@@ -39,7 +43,7 @@ h3{
 }
 
 /* Styling button*/
-.btn{
+#btn{
   height: 40px; 
   width: 400px;
   background-color: #0A1C2B;
@@ -50,6 +54,7 @@ h3{
   margin-top: 90px;
   cursor: pointer;
   padding:3px;
+  text-align: center;
 }
 
 </style>
@@ -67,8 +72,14 @@ h3{
     1500 live classes every month <br><br>
     90% reported promotion or a new job</h3>
     <br><br><br>
-    <div class="wesite-image">
-    </div>
-<button class="btn" style=" text-align: center;">Get a FREE Trail </button>
-</body>
+    <div class="wesite-image"></div>
+
+    <button id="btn">Enter</button>
+
+<script>
+    document.getElementById("btn").onclick = function() {
+        alert("Hi Five!");
+    };
+</script>
+  </body>
 </html>
