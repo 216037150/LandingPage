@@ -6,8 +6,8 @@
   <title>Higher certificate</title>
   <!-- Include Font Awesome stylesheet, and css style -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <!--   <link rel="stylesheet" href="style.css">
--->
+   <link rel="stylesheet" href="style.css">
+
 <link rel="stylesheet" href="style.css">
 <script type="text/javascript" src="javaScript.js"></script>
 
@@ -19,27 +19,24 @@ body{
   color: rgb(15, 213, 240);
 }
 h1{
+  margin-top: 1%;
   margin-left:70px;
   text-transform: uppercase;
   text-align: center;
-  shape-outside: border-radius(50%); 
 }
-.fas{
-  height:180px;
-  width: 400px;
-  margin-top: 50px;
-  margin-left: 700px;
+h2{
+  margin-left: 2%;
 }
-
 /* The h3 styling*/
-.content h3{
+h3{
   margin-left:40px;
   text-transform: uppercase;
   text-align: left;
-  margin-top:50px;
+  margin-top:5px;
+  margin-right: 90px;
+  padding: 80px;
   background-color: #0A1C2B;
   border-radius: 50px;
-  width: 40%;
 }
 
 /* Styling button*/
@@ -59,34 +56,79 @@ h1{
 
 .cloud-computing-icon i{
       color: rgb(47, 204, 204);
-      font-size: 40px;
+      font-size: 20px;
     }
+
+  
+    cert {
+    display: flex; /* Set display to flex */
+    flex-direction: column; /* Display in columns */
+    align-items: center;
+}
+
+.cert{
+    background-color: #0A1C2B;
+    height: 50px;
+    display: flex; /* Set display to flex */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: 5px;
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(70, 203, 221);
+    width: 50%px;
+    margin-right: 70px;
+    margin-left:40px;
+
+}/* Footer styling */
+footer {
+    background-color: #0A1C2B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  .arrow {
+  position: absolute;
+  width: 90px; /* Adjust the width of the arrow */
+}
 </style>
 
 </head>
 <body>
-  
-  <h1>Get a Higher certificate in software Enginering</h1>
-  <span style="color: aqua; align-items: center; margin-top: 200px; font-size: 150px;
-  ">
-  <i  class="fas fa-graduation-cap"></i></span>
+  <h2>Exploring Simple Learning Techniques</h2>
 
-  <div class="content">
-    <img src="traced-aws.PNG" alt="" style="margin-left: 55%;">
-      <span><h3>World's #1 online bootcamp <br><br>
-    Get started with your immersive learning experience <br><br>
-    2M careers advanced <br><br>
-    1500 live classes every month <br><br>
-    90% reported promotion or a new job</h3>    
-  </span>
+  <h1>Get a Higher certificate in software Enginering  
+  </h1>
+  <!----  <span style="color: aqua; align-items: center; margin-top: 200px; font-size: 150px;">
+--->
+<div class="content" style="display: flex; margin-top:10%; text-align: center; padding: 1x;" > 
+    <div class="A">
+      <h3>World's #1 online bootcamp <br>
+        Get started with your immersive learning experience <br>
+        2M careers advanced <br>
+        1500 live classes every month <br>
+        90% reported promotion or a new job <br>
+         <i  class="fas fa-graduation-cap" style="text-align: center; font-size: 70px; color: #0c7cd8;"> </i></h3>  
+    </div>
+    <div class="B" style="display: flex;">
+
+    <img src="Capture.PNG">
+
+    </div>
   </div>
-  
-    <button id="btn">Enter</button>
-<script>
+  <a href="https://216037150.github.io/X2Y3_First_Web/" class="button-link">
+    <button id="btn">GET FREE TRIAL &nbsp; &nbsp; &nbsp;&nbsp;<span class="arrow" style="width: 30px;">&#10132;</span></button>
+  </a>
+  <script>
     document.getElementById("btn").onclick = function() {
-        alert("Button clicked!");
+        alert("Visit our Website !!!");
     };
 </script>
-
+<br>
+<br>
+<br>
+<footer style="margin-bottom: 1px;">
+& 2024, TECH INNOVATION
+</footer>
 </body>
 </html>

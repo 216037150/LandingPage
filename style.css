@@ -1,24 +1,26 @@
-cert {
-    display: flex; /* Set display to flex */
-    flex-direction: column; /* Display in columns */
-    align-items: center;
-}
 
-.cert{
-    background-color: #0A1C2B;
-    height: 50px;
-    display: flex; /* Set display to flex */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    margin: 5px;
-    border-radius: 50px;
-    text-align: center;
-    color: rgb(70, 203, 221);
-    width: 50%px;
-    margin-right: 70px;
-    margin-left:40px;
-
-}
-.content{
-    display: inline;
-}
+  
+  /*
+    <div class="footer-container">
+    <div class="footer-section">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Connect With Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  */
